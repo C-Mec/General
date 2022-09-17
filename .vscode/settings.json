@@ -4,10 +4,5 @@
   "editor.bracketPairColorization.enabled": true,
   "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0 }",
   "C_Cpp.default.cppStandard": "c++20",
-  "python.formatting.provider": "black",
-  "files.associations": {
-    "iostream": "cpp",
-    "chrono": "cpp",
-    "complex": "cpp"
-  }
+  "python.formatting.provider": "black"
 }
