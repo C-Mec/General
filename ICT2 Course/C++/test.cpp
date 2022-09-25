@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
-    cout << "Hi" << endl;
+    int a, b;
+    cin >> a >> b;
+    cout << pow(6, 5) << endl;
 }
