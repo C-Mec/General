@@ -10,7 +10,7 @@ int main() {
         int m = n / k;
         int t = 0;
         for (int i = 0; i < k; i++) {
-            if (n % k != 0 && i >= n % k) {
+            if (n % k != 0 && i >= k - n % k) {
                 for (int j = m + t + 1; j > t; j--) {
                     cout << j + i * m << " ";
                 }
