@@ -1,7 +1,10 @@
+#include <math.h>
 #include <stdio.h>
 
 int main(void) {
-    printf("Hello, world!\n");
-
-    return 0;
+    int a;
+    int b;
+    a = 3;
+    b = 2;
+    printf("%f", (double)(b / a));
 }
